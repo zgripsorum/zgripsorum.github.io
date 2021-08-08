@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+  <ul class="nav">
+
+    <li><a href="index.html" target="_self">Home</a></li>
+    <li><a href="release.html" target="_self">Releases</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="index.html" target="_self">Home</a>
+      <a href="release.html" target="_self">Releases</a>
+      <a href="about.html">About</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-100px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    </script>
+
+  </div>
+  <div class="butonmeniu">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+
+
+
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <script>
+    /* Open when someone clicks on the span element */
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
+  <div class="logo">
+    <img src="Untitled-1.png" width="50%" height="auto">
+  </div>
+
+<h1 class="singles">SINGLES</h1>
+
+  <section class="container">
+
+    <div class="artwork">
+      <a href=" ">
+        <div class="art7">
+        </div>
+      </a>
+      <a href=" ">
+        <h2 class="t1">Doomdiver</h2>
+      </a>
+    </div>
+
+    <div class="artwork">
+      <a href=" ">
+        <div class="art6">
+        </div>
+      </a>
+      <a href=" ">
+        <h2 class="t1">Scarlet Sea</h2>
+      </a>
+    </div>
+
+    <div class="artwork">
+      <a href=" ">
+        <div class="art5">
+        </div>
+      </a>
+      <a href=" ">
+        <h2 class="t1">Empyrean</h2>
+      </a>
+    </div>
+
+
+    <div class="artwork">
+      <a href=" ">
+        <div class="art1">
+        </div>
+      </a>
+      <a href=" ">
+        <h2 class="t1">Battle Cry</h2>
+      </a>
+    </div>
+
+    <div class="artwork">
+      <a href=" ">
+        <div class="art4">
+        </div>
+      </a>
+      <a href=" ">
+        <h2 class="t1">Battle Cry (Instrumental)</h2>
+      </a>
+    </div>
+
+
+    <div class="artwork">
+      <a href=" ">
+        <div class="art3">
+        </div>
+      </a>
+      <a href=" ">
+        <h2 class="t1">Exile</h2>
+      </a>
+    </div>
+
+    <div class="artwork">
+      <a href=" ">
+        <div class="art2">
+        </div>
+      </a>
+      <a href=" ">
+        <h2 class="t1">Gai'don</h2>
+      </a>
+    </div>
+
+
+
+
+
+
+  </section>
+</body>
+<html>
