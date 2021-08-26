@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+
+
+  <ul class="nav" id="navbar">
+
+
+    <li><a href="index.html" target="_self">Home</a></li>
+    <li><a href="release.html" target="_self">Releases</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="index.html" target="_self">Home</a>
+      <a href="release.html" target="_self">Releases</a>
+      <a href="about.html">About</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-100px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    </script>
+
+  </div>
+
+  <div class="butonmeniu">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+
+
+
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <script>
+    /* Open when someone clicks on the span element */
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
+
+  <div class="logo">
+    <img src="Untitled-1.png" width="50%" height="auto">
+  </div>
+
+  <section class="banner">
+    <div class="poza">
+      <a href=""><div class="poza-1"></a>
+      </div>
+    </div>
+
+
+    <div class="poza">
+      <div class="poza-2">
+      </div>
+      <h2>Latest Release<br>
+        "Empyrean"</h2>
+    </div>
+
+</section>
+<div class="icon-bar">
+  <a class="primu" href="https://www.facebook.com/zgripsorum"><img src="facebooklogo.png" width="50px"></a>
+  <a href="https://www.instagram.com/zgripsorum/"><img src="instagramlogo.png" width="50px"></a>
+  <a href="https://zgripsorum.bandcamp.com"><img src="bandcamplogo.png" width="50px"></a>
+  <a href="https://www.youtube.com/channel/UCa-i0pW5Mj1VU-EfKv4JjIw"><img src="youtube2.png" width="50px"></a>
+  <a href="https://discord.gg/XRNYN9fn7a"><img src="discord2.png" width="44px"></a>
+</div>
+
+<section class="container">
+
+  <div class="card">
+    <div class="card-image pic1">
+
+    </div>
+    <h2>  Zgripsorum | The release of "Empyrean"</h2>
+    <p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut massa eros. Praesent fringilla orci risus, egestas tristique leo bibendum in. Donec ullamcorper, diam tempus efficitur hendrerit, mi urna rhoncus velit, sit amet consectetur velit nibh nec quam. Phasellus dictum tristique ultrices. Sed tellus nulla, faucibus quis lorem non, pellentesque malesuada metus. Quisque vel pulvinar tortor, ac tincidunt nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    <a href=""> READ MORE</a>
+  </div>
+  <div class="card">
+    <div class="card-image pic2">
+    </div>
+    <h2>Zgripsorum | Moartea din turnu magurele</h2>
+    <p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut massa eros. Praesent fringilla orci risus, egestas tristique leo bibendum in. Donec ullamcorper, diam tempus efficitur hendrerit, mi urna rhoncus velit, sit amet consectetur velit nibh nec quam. Phasellus dictum tristique ultrices. Sed tellus nulla, faucibus quis lorem non, pellentesque malesuada metus. Quisque vel pulvinar tortor, ac tincidunt nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    <a href=""> READ MORE</a>
+  </div>
+  <div class="card">
+    <div class="card-image pic3">
+    </div>
+    <h2>Title</h2>
+    <p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut massa eros. Praesent fringilla orci risus, egestas tristique leo bibendum in. Donec ullamcorper, diam tempus efficitur hendrerit, mi urna rhoncus velit, sit amet consectetur velit nibh nec quam. Phasellus dictum tristique ultrices. Sed tellus nulla, faucibus quis lorem non, pellentesque malesuada metus. Quisque vel pulvinar tortor, ac tincidunt nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    <a href=""> READ MORE</a>
+  </div>
+  <div class="card">
+    <div class="card-image pic1">
+
+    </div>
+    <h2>  Zgripsorum | The release of "Empyrean"</h2>
+    <p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut massa eros. Praesent fringilla orci risus, egestas tristique leo bibendum in. Donec ullamcorper, diam tempus efficitur hendrerit, mi urna rhoncus velit, sit amet consectetur velit nibh nec quam. Phasellus dictum tristique ultrices. Sed tellus nulla, faucibus quis lorem non, pellentesque malesuada metus. Quisque vel pulvinar tortor, ac tincidunt nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    <a href=""> READ MORE</a>
+  </div>
+  <div class="card">
+    <div class="card-image pic2">
+    </div>
+    <h2>Zgripsorum | Moartea din turnu magurele</h2>
+    <p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut massa eros. Praesent fringilla orci risus, egestas tristique leo bibendum in. Donec ullamcorper, diam tempus efficitur hendrerit, mi urna rhoncus velit, sit amet consectetur velit nibh nec quam. Phasellus dictum tristique ultrices. Sed tellus nulla, faucibus quis lorem non, pellentesque malesuada metus. Quisque vel pulvinar tortor, ac tincidunt nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    <a href=""> READ MORE</a>
+  </div>
+  <div class="card">
+    <div class="card-image pic3">
+    </div>
+    <h2>Title</h2>
+    <p>    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut massa eros. Praesent fringilla orci risus, egestas tristique leo bibendum in. Donec ullamcorper, diam tempus efficitur hendrerit, mi urna rhoncus velit, sit amet consectetur velit nibh nec quam. Phasellus dictum tristique ultrices. Sed tellus nulla, faucibus quis lorem non, pellentesque malesuada metus. Quisque vel pulvinar tortor, ac tincidunt nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    <a href=""> READ MORE</a>
+  </div>
+</section>
+
+
+
+<div class="readmore">
+  <a href=" "><h3>OLDER POSTS</h3></a>
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

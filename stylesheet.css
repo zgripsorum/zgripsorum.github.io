@@ -1,0 +1,773 @@
+* {
+  box-sizing: border-box;
+}
+
+html * {
+  font-family: Helvetica !important;
+}
+
+body {
+  background-image: url("scarlet sea.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: ;
+}
+
+.readmore{
+  transition: 0.5s;
+  background-color:rgba(255, 255, 255, 0.7);
+  padding:5px 10px;
+  display:block;
+  text-align: center;
+  margin:20px 50px;
+  border-radius: 30px;
+
+}
+.readmore a{
+  text-decoration: none;
+}
+.readmore h3{
+  font-family: Copperplate !important;
+}
+
+
+.readmore:hover{
+  transition: 0.5s;
+  background-color: rgba(255, 255, 255);
+}
+
+.singles{
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+.artwork h2{
+  font-family: Copperplate !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  .overlay {
+    display: none;
+  }
+
+  .butonmeniu {
+    display: none;
+  }
+
+  .nav {
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    position: sticky;
+    /* Make it stick/fixed */
+    top: 0;
+    /* Stay on top */
+    width: 100%;
+    /* Full width */
+    transition: top 0.3s;
+    /* Transition effect when sliding down (and up) */
+    z-index:1;
+  }
+
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Copperplate !important;
+  }
+
+  li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    transition: .25s;
+  }
+li a:active{
+  color:#861BB8
+}
+
+  .left {
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+  }
+
+  .banner{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-around;
+    background:rgba(0, 0, 0, 0.8);
+
+  }
+
+  .poza-1{
+    width:400px;
+    margin:50px;
+    border-radius: 15px;
+    content: url('empyrean.jpg');
+    transition: 0.5s;
+  }
+  .poza-1:hover{
+    cursor: pointer;
+
+  }
+
+  .poza-2{
+    width:400px;
+    margin:50px;
+    border-radius: 15px;
+    content: url('Untitled-1.png');
+  }
+.poza h2{
+  color:white;
+  text-align: center;
+  font-family: Copperplate !important;
+}
+
+.icon-bar {
+  margin:auto;
+  margin-top:50px;
+  width: 80%;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: auto; /* Overflow due to float */
+  border-radius:10px;
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  height:auto;
+}
+
+.icon-bar a:hover {
+background: rgba(0,0,0,0.7);
+}
+
+
+
+.logofl{
+  width:50px;
+  margin:20px;
+  color: white;
+}
+.box{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+}
+
+  .container
+  {
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .card{
+    transition: .75s;
+    background: black;
+    width:350px;
+    margin:20px;
+    border-radius: 15px;
+    color: white;
+  }
+  .card h2{
+    font-family: Copperplate !important;
+  }
+  .card-image{
+    background-color:grey;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  .pic1{
+    background-image: url('empyrean.jpg');
+  }
+  .pic2{
+    background-image: url('scarlet sea.jpg');
+  }
+  .pic3{
+    background-image: url('tareda.jpg');
+  }
+  .card:hover
+  {
+    transform:scale(1.05);
+    transition: .75s;
+  }
+  .card h2{
+    padding: 10px;
+  }
+  .card p{
+    padding: 10px;
+    text-align: justify;
+  }
+  .card a{
+    background-color: white;
+    padding:15px 20px;
+    display:block;
+    text-align: center;
+    margin:20px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+  .card a:hover{
+    cursor: pointer;
+  }
+
+
+
+.artwork{
+  padding: 15px;
+}
+.artwork a{
+  text-decoration: none;
+}
+.art1{
+  width:400px;
+  height:400px;
+  content:url('battlecry.jpg');
+  border-radius:15px;
+  filter:blur(3px);
+  transition: .7s;
+}
+.art1:hover{
+filter:blur(0px);
+transform: scale(1.05);
+transition: .2s;
+}
+.t1{
+  text-align: center;
+  color: white;
+}
+.art2{
+  width:400px;
+  height:400px;
+  content:url('Gaidon.png');
+  border-radius:15px;
+  filter:blur(3px);
+  transition: .7s;
+}
+.art2:hover{
+filter:blur(0px);
+transform: scale(1.05);
+transition: .2s;
+}
+.art3{
+  width:400px;
+  height:400px;
+  content:url('exile.jpg');
+  border-radius:15px;
+  filter:blur(3px);
+  transition: .7s;
+}
+.art3:hover{
+filter:blur(0px);
+transform: scale(1.05);
+transition: .2s;
+}
+.art5{
+  content:url('empyreanlg.jpg');
+  width:400px;
+  height:400px;
+  border-radius:15px;
+  filter:blur(3px);
+  transition: .7s;
+}
+.art5:hover{
+filter:blur(0px);
+transform: scale(1.05);
+transition: .2s;
+}
+.art6{
+  width:400px;
+  height:400px;
+  content:url('scarlet sea.jpg');
+  border-radius:15px;
+  filter:blur(3px);
+  transition: .7s;
+}
+.art6:hover{
+filter:blur(0px);
+transform: scale(1.05);
+transition: .2s;
+}
+.art7{
+  width:400px;
+  height:400px;
+  content:url('tareda.jpg');
+  border-radius:15px;
+  filter:blur(3px);
+  transition: .7s;
+}
+.art7:hover{
+filter:blur(0px);
+transform: scale(1.05);
+transition: .2s;
+}
+
+.releasebox{
+  display:flex;
+  width:70%;
+  margin:auto;
+  margin-top:50px;
+  background: rgba(0,0,0,0.7);
+  border-radius:15px;
+}
+
+.column1{
+  width:50%;
+  height:auto;
+  float:left;
+  color:white;
+  background:rgba(0,0,0,0.7);
+  border-radius: 10px;
+}
+.column1 h2{
+  text-align: left;
+  padding-left: 20px;
+}
+.column1 h4{
+  text-align: left;
+  padding-left: 20px;
+}
+.column1 p{
+  text-align: justify;
+  margin-right:20px;
+}
+.description{
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.digitrack{
+  text-align: left;
+  padding-left: 20px;
+}
+.lyrics{
+  text-align: left;
+  padding-left: 20px;
+}
+.release-date{
+  color:white;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 13px;
+}
+.column2{
+  width:50%;
+  height:100%;
+  float:left;
+  background:rgba(0,0,0,0.7);
+  border-radius: 10px;
+  text-align: center;
+  flex-grow:1;
+}
+.merch{
+  margin-top:50px;
+  width:80%;
+  height:auto;
+}
+.release-art img{
+  width:80%;
+  height:auto;
+  border:5px solid black;
+  margin-top:25px;
+}
+.audiocontrols{
+  padding-left:18px;
+}
+.spotify{
+  margin-top: 25px;
+  border:2px solid black;
+  border-radius:15px;
+}
+.phonerelease{
+  display:none;
+}
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+
+        overflow-x: hidden;
+    .banner{
+      display:flex;
+      margin-top: 50px;
+      justify-content: center;
+      background:rgba(0, 0, 0, 0.8);
+      border-radius: 15px;
+      width: 100%;
+      height: auto;
+      flex-wrap: wrap;
+    }
+
+    .poza-1{
+      width:300px;
+      margin: auto;
+      margin-top:30px;
+      border-radius: 15px;
+      content: url('empyrean.jpg');
+      transition: 0.5s;
+      height: auto;
+    }
+    .poza-1:hover{
+      cursor: pointer;
+
+    }
+
+
+    .poza-2{
+      display:none;
+    }
+  .poza h2{
+    margin-top: 50px;
+    color:white;
+    text-align: center;
+    font-family: Copperplate !important;
+  }
+
+  .butonmeniu {
+    position: fixed;
+    color: white;
+  }
+
+  .logo {
+    text-align: center;
+    margin:auto;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .left {
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+  }
+  .container
+  {
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card{
+    transition: .75s;
+    background: black;
+    width:100%;
+    margin:20px;
+    border-radius: 15px;
+    color: white;
+    heigh:auto;
+  }
+  .card h2{
+    font-family: Copperplate !important;
+  }
+  .card-image{
+    background-color:grey;
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  .pic1{
+    background-image: url("empyrean.jpg");
+  }
+  .pic2{
+    background-image: url("scarlet sea.jpg");
+  }
+  .pic3{
+    background-image: url('tareda.jpg');
+  }
+  .card:hover
+  {
+    transform:scale(1.05);
+    transition: .75s;
+  }
+  .card h2{
+    padding: 10px;
+  }
+  .card p{
+    padding: 10px;
+    text-align: justify;
+  }
+  .card a{
+    background-color: white;
+    padding:15px 20px;
+    display:block;
+    text-align: center;
+    margin:20px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+
+  .artwork{
+    padding: 15px;
+  }
+
+  .artwork a{
+    text-decoration: none;
+  }
+  .art1{
+    width:250px;
+    height:250px;
+    content:url('battlecry.jpg');
+    border-radius:15px;
+
+    transition: .7s;
+  }
+  .art1:hover{
+  transform: scale(1.05);
+  transition: .2s;
+  }
+  .t1{
+    visibility: hidden;
+    text-align: center;
+    color: white;
+  }
+  .art2{
+    width:250px;
+    height:250px;
+    content:url('gaidon.png');
+    border-radius:15px;
+    transition: .7s;
+  }
+  .art2:hover{
+  transform: scale(1.05);
+  transition: .2s;
+  }
+  .art3{
+    width:250px;
+    height:250px;
+    content:url('exile.jpg');
+    border-radius:15px;
+    transition: .7s;
+  }
+  .art3:hover{
+  transform: scale(1.05);
+  transition: .2s;
+  }
+
+  .art5{
+    width:250px;
+    height:250px;
+    content:url('empyreanlg.jpg');
+    border-radius:15px;
+    transition: .7s;
+  }
+  .art5:hover{
+  transform: scale(1.05);
+  transition: .2s;
+  }
+  .art6{
+    width:250px;
+    height:250px;
+    content:url('scarlet sea.jpg');
+    border-radius:15px;
+    transition: .7s;
+  }
+  .art6:hover{
+  transform: scale(1.05);
+  transition: .2s;
+  }
+  .art7{
+    width:250px;
+    height:250px;
+    content:url('tareda.jpg');
+    border-radius:15px;
+    transition: .7s;
+  }
+  .art7:hover{
+  transform: scale(1.05);
+  transition: .2s;
+  }
+
+  .icon-bar {
+    margin:auto;
+    margin-top:50px;
+    width:80%;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: auto; /* Overflow due to float */
+    border-radius:10px;
+  }
+
+  .icon-bar a {
+    margin:auto;
+    display:block;
+    text-align: center; /* Center-align text */
+    width: 100%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    height:auto;
+    border-bottom: 1px solid rgba(0,0,0,0.7);
+  }
+  .primu{
+    border-top: 1px solid rgba(0,0,0,0.7);
+  }
+  .releasebox{
+    display: none;
+  }
+  .phonerelease{
+
+    width:90%;
+    height:auto;
+    margin:auto;
+    background: rgba(0,0,0,0.7);
+    color:white;
+    border-radius:15px;
+    margin-top:50px;
+  }
+  .titluphone{
+    margin:auto;
+    text-align: center;
+  }
+
+  .releaseartph img{
+    display:block;
+    width:80%;
+    height:auto;
+    border-radius: 15px;
+    margin:auto;
+  }
+  .playphone{
+    display:block;
+    margin:auto;
+    margin-top:25px;
+  }
+  .descriptionph{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .lyrics{
+    text-align: left;
+    padding-left: 20px;
+  }
+  .release-date{
+    color:white;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 13px;
+  }
+  .digitrack{
+    text-align: center;
+    padding-left: 20px;
+  }
+  .merchtelefon img{
+    display:block;
+    width:80%;
+    margin:auto;
+    margin-top:50px;
+  }
+  .buy h4{
+    display:block;
+    width:auto;
+    text-align: center;
+    background-color: #330066;
+  }
+  .buy a{
+    color:white;
+    text-decoration: underline;
+  }
+
+
+}
+
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  /* Black fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/opacity */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%;
+  /* 25% from the top */
+  width: 100%;
+  /* 100% width */
+  text-align: center;
+  /* Centered text/links */
+  margin-top: 30px;
+  /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  /* Display block instead of inline */
+  transition: 0.3s;
+  /* Transition effects on hover (color) */
+  font-family: Copperplate !important;
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
